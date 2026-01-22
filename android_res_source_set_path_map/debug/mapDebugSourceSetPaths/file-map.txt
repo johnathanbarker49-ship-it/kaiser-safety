@@ -1,0 +1,52 @@
+com.example.safetydocument.app-customview-poolingcontainer-1.0.0-0 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\0acbea47e6740c4507a4522c16606ed4\workspace\transformed\customview-poolingcontainer-1.0.0\res
+com.example.safetydocument.app-annotation-experimental-1.3.0-1 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\0d33295e732b441075be05bbc4ec7f5f\workspace\transformed\annotation-experimental-1.3.0\res
+com.example.safetydocument.app-navigation-common-ktx-2.6.0-2 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\0ed0e278898696842715b06a922ef0ba\workspace\transformed\navigation-common-ktx-2.6.0\res
+com.example.safetydocument.app-drawerlayout-1.1.1-3 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\199f50dd8214eb25f73455304d601352\workspace\transformed\drawerlayout-1.1.1\res
+com.example.safetydocument.app-navigation-runtime-2.6.0-4 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\23b1fc9b09c02878614075ff307735af\workspace\transformed\navigation-runtime-2.6.0\res
+com.example.safetydocument.app-transition-1.4.1-5 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\294b0512fd2c86f9cfb6c4c89e95f6ec\workspace\transformed\transition-1.4.1\res
+com.example.safetydocument.app-navigation-fragment-2.6.0-6 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\2dab8394d677b83c2c97d2e8c3209c5a\workspace\transformed\navigation-fragment-2.6.0\res
+com.example.safetydocument.app-core-ktx-1.10.1-7 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\2fab471a8e277194621fa71968c7a736\workspace\transformed\core-ktx-1.10.1\res
+com.example.safetydocument.app-navigation-runtime-ktx-2.6.0-8 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\36d2e2d2de6d45d018aa856bd80b2a6a\workspace\transformed\navigation-runtime-ktx-2.6.0\res
+com.example.safetydocument.app-lifecycle-viewmodel-2.6.1-9 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\3c6bd74b4206df92908c3c679316936d\workspace\transformed\lifecycle-viewmodel-2.6.1\res
+com.example.safetydocument.app-profileinstaller-1.3.0-10 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\432c8ede640c8b23831f7c2512be9867\workspace\transformed\profileinstaller-1.3.0\res
+com.example.safetydocument.app-navigation-ui-2.6.0-11 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\4df8ad19e535d3ee5e38c3d864bb3333\workspace\transformed\navigation-ui-2.6.0\res
+com.example.safetydocument.app-navigation-ui-ktx-2.6.0-12 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\5a29618b6be9512868a6d1e2df3db98a\workspace\transformed\navigation-ui-ktx-2.6.0\res
+com.example.safetydocument.app-window-1.0.0-13 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\5bb4fd9e9b602fd55ec2050ada829b46\workspace\transformed\window-1.0.0\res
+com.example.safetydocument.app-core-1.10.1-14 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\61f57bce99c8ca808116a30244f03747\workspace\transformed\core-1.10.1\res
+com.example.safetydocument.app-lifecycle-runtime-ktx-2.6.1-15 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\62b32137684a67328ad439f1f6c5a70b\workspace\transformed\lifecycle-runtime-ktx-2.6.1\res
+com.example.safetydocument.app-lifecycle-viewmodel-savedstate-2.6.1-16 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\709e7f145234d7e51a7fcb51039e509a\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
+com.example.safetydocument.app-lifecycle-runtime-2.6.1-17 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\71d6c954173ffdff98f486ee89c46cff\workspace\transformed\lifecycle-runtime-2.6.1\res
+com.example.safetydocument.app-cardview-1.0.0-18 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\74fbb31fb06fe4199986fd743c8c9d91\workspace\transformed\cardview-1.0.0\res
+com.example.safetydocument.app-core-runtime-2.2.0-19 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\758c0109905391d85e1b1306ecc3090c\workspace\transformed\core-runtime-2.2.0\res
+com.example.safetydocument.app-recyclerview-1.3.0-20 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\83fa673a30ffeeb14a4814a0d9251f2a\workspace\transformed\recyclerview-1.3.0\res
+com.example.safetydocument.app-lifecycle-livedata-2.6.1-21 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\8e84f38651150dfa7f8255576aa94a4d\workspace\transformed\lifecycle-livedata-2.6.1\res
+com.example.safetydocument.app-activity-1.8.0-22 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\8eeb2509b16ea0d92d2374ce8faf85aa\workspace\transformed\activity-1.8.0\res
+com.example.safetydocument.app-startup-runtime-1.1.1-23 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\90e0c7e0f3d6b37d28568bb0b612555f\workspace\transformed\startup-runtime-1.1.1\res
+com.example.safetydocument.app-appcompat-resources-1.6.1-24 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\96d7e1d0d8c898a8d9d579da4f682135\workspace\transformed\appcompat-resources-1.6.1\res
+com.example.safetydocument.app-navigation-fragment-ktx-2.6.0-25 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\9843ed78dca5af0ec1aba191ab83a668\workspace\transformed\navigation-fragment-ktx-2.6.0\res
+com.example.safetydocument.app-coordinatorlayout-1.1.0-26 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\9bab9bdbdf8bd3c0986a8d52de90d0b7\workspace\transformed\coordinatorlayout-1.1.0\res
+com.example.safetydocument.app-appcompat-1.6.1-27 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\9e3c7c97cb9a4612b66f9429bb89effb\workspace\transformed\appcompat-1.6.1\res
+com.example.safetydocument.app-savedstate-1.2.1-28 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\a36f5c73091a6a0c14163a525eddefac\workspace\transformed\savedstate-1.2.1\res
+com.example.safetydocument.app-lifecycle-viewmodel-ktx-2.6.1-29 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\ab7ce7aea0ac3732900bf9e812f049d4\workspace\transformed\lifecycle-viewmodel-ktx-2.6.1\res
+com.example.safetydocument.app-emoji2-1.2.0-30 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\aef0db2cdbfab37757854433c598b9f1\workspace\transformed\emoji2-1.2.0\res
+com.example.safetydocument.app-viewpager2-1.0.0-31 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\b04095c9d92e16b90729242da97993a7\workspace\transformed\viewpager2-1.0.0\res
+com.example.safetydocument.app-fragment-1.6.0-32 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\b2be67faa97730841f84fdb78f306729\workspace\transformed\fragment-1.6.0\res
+com.example.safetydocument.app-lifecycle-process-2.6.1-33 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\c241f129c154207482b758f6ec222bb3\workspace\transformed\lifecycle-process-2.6.1\res
+com.example.safetydocument.app-slidingpanelayout-1.2.0-34 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\c7497cdf9b2d41b8740c426be7f971d8\workspace\transformed\slidingpanelayout-1.2.0\res
+com.example.safetydocument.app-lifecycle-livedata-ktx-2.6.1-35 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\c87c79d970a3987501a271e523d4111d\workspace\transformed\lifecycle-livedata-ktx-2.6.1\res
+com.example.safetydocument.app-emoji2-views-helper-1.2.0-36 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\cb0c78719783d702f9bb94d3aed98ad2\workspace\transformed\emoji2-views-helper-1.2.0\res
+com.example.safetydocument.app-fragment-ktx-1.6.0-37 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\cf63a5af80e3ba422f41a570448614b7\workspace\transformed\fragment-ktx-1.6.0\res
+com.example.safetydocument.app-navigation-common-2.6.0-38 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\d36164e663201c6e4cf7278f9134cd7a\workspace\transformed\navigation-common-2.6.0\res
+com.example.safetydocument.app-activity-ktx-1.8.0-39 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\ecf19837bdb60b9a315e51c2195a7c7d\workspace\transformed\activity-ktx-1.8.0\res
+com.example.safetydocument.app-lifecycle-livedata-core-2.6.1-40 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\ed1377ed27791f05fb707bed1a603b63\workspace\transformed\lifecycle-livedata-core-2.6.1\res
+com.example.safetydocument.app-savedstate-ktx-1.2.1-41 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\ee7935f555f30ad7b9d1e59ddec2e69c\workspace\transformed\savedstate-ktx-1.2.1\res
+com.example.safetydocument.app-constraintlayout-2.1.4-42 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\f5ee1ebb0ea32c0f8920b831b824e44c\workspace\transformed\constraintlayout-2.1.4\res
+com.example.safetydocument.app-material-1.10.0-43 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\f61a8ae7d236aea0c4d876fe6e55c1ea\workspace\transformed\material-1.10.0\res
+com.example.safetydocument.app-lifecycle-livedata-core-ktx-2.6.1-44 C:\Users\johns pc\.gradle\caches\9.1.0\transforms\f6688b57a3a01c5996817472b89ec5d2\workspace\transformed\lifecycle-livedata-core-ktx-2.6.1\res
+com.example.safetydocument.app-pngs-45 C:\Users\johns pc\OneDrive\Desktop\app maker\app\build\generated\res\pngs\debug
+com.example.safetydocument.app-updated_navigation_xml-46 C:\Users\johns pc\OneDrive\Desktop\app maker\app\build\generated\updated_navigation_xml\debug
+com.example.safetydocument.app-packageDebugResources-47 C:\Users\johns pc\OneDrive\Desktop\app maker\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.safetydocument.app-packageDebugResources-48 C:\Users\johns pc\OneDrive\Desktop\app maker\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.safetydocument.app-debug-49 C:\Users\johns pc\OneDrive\Desktop\app maker\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.safetydocument.app-debug-50 C:\Users\johns pc\OneDrive\Desktop\app maker\app\src\debug\res
+com.example.safetydocument.app-main-51 C:\Users\johns pc\OneDrive\Desktop\app maker\app\src\main\res
