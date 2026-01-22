@@ -1,0 +1,463 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 200 30% 97%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 199 89% 70%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 45 93% 58%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 200 30% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 45 93% 58%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 200 25% 88%;
+    --input: 200 25% 88%;
+    --ring: 199 89% 70%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 200 30% 97%;
+    --sidebar-foreground: 215 25% 27%;
+    --sidebar-primary: 199 89% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 200 25% 92%;
+    --sidebar-accent-foreground: 215 25% 27%;
+    --sidebar-border: 200 20% 90%;
+    --sidebar-ring: 199 89% 60%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 199 89% 60%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 45 93% 50%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 45 93% 50%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 199 89% 60%;
+
+    --sidebar-background: 215 28% 17%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 199 89% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 215 25% 27%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 215 25% 27%;
+    --sidebar-ring: 199 89% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans dark:bg-background dark:text-foreground;
+  }
+
+  pre, code {
+    @apply font-mono;
+  }
+}
+
+.markdown-editor {
+  @apply font-mono text-base leading-relaxed;
+}
+
+.markdown-preview {
+  @apply prose max-w-none prose-blue dark:prose-invert;
+}
+
+.markdown-preview pre {
+  @apply bg-secondary p-4 rounded-md overflow-x-auto;
+}
+
+.markdown-preview code {
+  @apply text-sm font-mono text-primary;
+}
+
+.markdown-preview h1,
+.markdown-preview h2,
+.markdown-preview h3,
+.markdown-preview h4,
+.markdown-preview h5,
+.markdown-preview h6 {
+  @apply font-sans font-semibold text-foreground;
+}
+
+.markdown-preview ul,
+.markdown-preview ol {
+  @apply my-4 ml-6;
+}
+
+/* =====================================================
+   COMPREHENSIVE PRINT STYLES FOR ALL SHEETS
+   ===================================================== */
+
+/* Print utility classes */
+@layer utilities {
+  .print-hide {
+    @apply print:hidden;
+  }
+  
+  .print-show {
+    @apply hidden print:block;
+  }
+  
+  .print-page-break {
+    @apply print:break-before-page;
+  }
+  
+  .print-avoid-break {
+    @apply print:break-inside-avoid;
+  }
+  
+  .print-full-width {
+    @apply print:w-full print:max-w-none;
+  }
+}
+
+/* Global print styles */
+@media print {
+  /* Reset page margins and setup */
+  @page {
+    size: letter;
+    margin: 0.5in;
+  }
+  
+  /* Force color printing */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+  
+  /* Reset body */
+  html, body {
+    background: white !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 11pt !important;
+    line-height: 1.4 !important;
+  }
+  
+  /* Hide non-printable elements */
+  .print-hide,
+  .no-print,
+  nav,
+  aside,
+  header:not(.print-header),
+  footer:not(.print-footer),
+  button:not(.print-button),
+  .sidebar,
+  .navigation,
+  [data-no-print],
+  .toast,
+  .modal-backdrop {
+    display: none !important;
+  }
+  
+  /* Show print-only elements */
+  .print-show,
+  .print-only {
+    display: block !important;
+  }
+  
+  /* Main content area */
+  main,
+  .main-content,
+  .print-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  /* Card and container styles */
+  .bg-white,
+  .card,
+  [class*="rounded-xl"],
+  [class*="rounded-lg"] {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+  
+  /* Preserve borders for tables and forms */
+  table,
+  th,
+  td,
+  .border,
+  [class*="border-"] {
+    border-color: #d1d5db !important;
+  }
+  
+  /* Table styles for print */
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    page-break-inside: auto !important;
+  }
+  
+  thead {
+    display: table-header-group !important;
+  }
+  
+  tr {
+    page-break-inside: avoid !important;
+    page-break-after: auto !important;
+  }
+  
+  th, td {
+    padding: 8px 12px !important;
+    text-align: left !important;
+    vertical-align: top !important;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid !important;
+    page-break-inside: avoid !important;
+  }
+  
+  h1 { font-size: 18pt !important; }
+  h2 { font-size: 14pt !important; }
+  h3 { font-size: 12pt !important; }
+  
+  /* Paragraphs and lists */
+  p, li {
+    orphans: 3 !important;
+    widows: 3 !important;
+  }
+  
+  /* Images */
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid !important;
+  }
+  
+  /* Links - show URL */
+  a[href]:after {
+    content: none !important;
+  }
+  
+  /* Form elements for blank forms */
+  input[type="text"],
+  input[type="date"],
+  input[type="number"],
+  textarea,
+  select {
+    border: 1px solid #9ca3af !important;
+    background: white !important;
+    min-height: 24px !important;
+  }
+  
+  /* Checkbox and radio for print */
+  input[type="checkbox"],
+  input[type="radio"] {
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    width: 14px !important;
+    height: 14px !important;
+    border: 1.5px solid #374151 !important;
+    background: white !important;
+  }
+  
+  input[type="checkbox"] {
+    border-radius: 2px !important;
+  }
+  
+  input[type="radio"] {
+    border-radius: 50% !important;
+  }
+  
+  /* Signature lines */
+  .signature-line,
+  .border-b-2 {
+    border-bottom: 2px solid #1f2937 !important;
+  }
+  
+  /* Background colors - preserve important ones */
+  .bg-red-50, .bg-red-100 {
+    background-color: #fef2f2 !important;
+  }
+  
+  .bg-green-50, .bg-green-100 {
+    background-color: #f0fdf4 !important;
+  }
+  
+  .bg-gold-50, .bg-gold-100, .bg-yellow-50, .bg-yellow-100 {
+    background-color: #fefce8 !important;
+  }
+  
+  .bg-babyblue-50, .bg-babyblue-100, .bg-blue-50, .bg-blue-100 {
+    background-color: #eff6ff !important;
+  }
+  
+  .bg-gray-50, .bg-gray-100 {
+    background-color: #f9fafb !important;
+  }
+  
+  /* Header backgrounds for sections */
+  .bg-babyblue-600, .bg-babyblue-700 {
+    background-color: #0284c7 !important;
+    color: white !important;
+  }
+  
+  .bg-red-600 {
+    background-color: #dc2626 !important;
+    color: white !important;
+  }
+  
+  .bg-gold-500, .bg-gold-600 {
+    background-color: #eab308 !important;
+    color: white !important;
+  }
+  
+  .bg-navy-600, .bg-navy-800 {
+    background-color: #1e3a5f !important;
+    color: white !important;
+  }
+  
+  /* Badge colors */
+  .bg-green-500 {
+    background-color: #22c55e !important;
+  }
+  
+  /* Text colors */
+  .text-white {
+    color: white !important;
+  }
+  
+  .text-navy-900, .text-gray-900 {
+    color: #111827 !important;
+  }
+  
+  .text-gray-700 {
+    color: #374151 !important;
+  }
+  
+  .text-gray-500, .text-gray-600 {
+    color: #6b7280 !important;
+  }
+  
+  /* Gradient backgrounds - flatten for print */
+  [class*="bg-gradient"] {
+    background-image: none !important;
+  }
+  
+  .bg-gradient-to-r.from-babyblue-600.to-babyblue-700 {
+    background-color: #0284c7 !important;
+  }
+  
+  .bg-gradient-to-r.from-gold-500.to-gold-600 {
+    background-color: #eab308 !important;
+  }
+  
+  /* Page breaks */
+  .print-page-break,
+  .page-break {
+    page-break-before: always !important;
+  }
+  
+  .print-avoid-break,
+  .avoid-break {
+    page-break-inside: avoid !important;
+  }
+  
+  /* Toolbox talk specific */
+  .toolbox-talk-pdf {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  .toolbox-talk-pdf .rounded-t-xl,
+  .toolbox-talk-pdf .rounded-b-xl,
+  .toolbox-talk-pdf .rounded-xl {
+    border-radius: 0 !important;
+  }
+  
+  /* PDF viewer specific */
+  .pdf-content {
+    box-shadow: none !important;
+    max-width: 100% !important;
+  }
+  
+  /* Attendance table */
+  .attendance-table td {
+    height: 32px !important;
+    min-height: 32px !important;
+  }
+  
+  /* Checklist items */
+  .checklist-item {
+    page-break-inside: avoid !important;
+    margin-bottom: 4px !important;
+  }
+  
+  /* Ensure icons print */
+  svg {
+    print-color-adjust: exact !important;
+  }
+  
+  /* Company logo placeholder */
+  .company-logo {
+    border: 2px solid #d1d5db !important;
+    background: white !important;
+  }
+}
+
+/* Print preview mode - for testing */
+.print-preview {
+  background: #f3f4f6;
+  padding: 2rem;
+}
+
+.print-preview .print-page {
+  background: white;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 2rem;
+  max-width: 8.5in;
+  min-height: 11in;
+  padding: 0.5in;
+}
